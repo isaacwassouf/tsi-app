@@ -4,9 +4,9 @@ This is the final submission for the **Project Software Engineering** course.
 
 # Structure
 This project is structured with three repositories
-- The **PWA** repository.
-- The **API** repository.
-- The **DevOps** repository.
+- The **PWA** submodule repository ```tsi-pwa```.
+- The **API** submodule repository ```tsi-api```.
+- The **DevOps** submodule repository ```tsi-devops```.
 
 # Installation
 In order to install the project successfully please follow the following steps.
