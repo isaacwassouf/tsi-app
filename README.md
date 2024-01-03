@@ -9,32 +9,39 @@ This project is structured with three repositories
 - The **DevOps** submodule repository ```tsi-devops```.
 
 # Installation
+
+This repository contains the git submodules. To clone it along with the submodules, run this command
+```bash
+git clone https://github.com/isaacwassouf/tsi-app.git --recurse-submodules
+```
+
 In order to install the project successfully please follow the following steps.
 
-## PWA
-Create the ```.env``` file for the PWA
-```bash
-cd ./tsi-pwa && cp .env.example .env
-```
 
-## API
-Create the ```.env``` file for the API
-```bash
-cd ./tsi-api && cp .env.example .env
-```
-
-## DevOps
-- Create the ```proxy``` docker network by running the following command
+- ## PWA
+	Create the ```.env``` file for the PWA
 	```bash
-	docker network create "proxy"
+	cd ./tsi-pwa && cp .env.example .env
 	```
 
-- Add the following host entries to the ```/etc/hosts``` file:
+- ## API
+	Create the ```.env``` file for the API
 	```bash
-	127.0.0.1  app.pwa-tsi.local
-	127.0.0.1  app.api-tsi.local
-	127.0.0.1  app.dicebear-tsi.local
+	cd ./tsi-api && cp .env.example .env
 	```
+
+- ## DevOps
+	- Create the ```proxy``` docker network by running the following command
+		```bash
+		docker network create "proxy"
+		```
+	
+	- Add the following host entries to the ```/etc/hosts``` file:
+		```bash
+		127.0.0.1  app.pwa-tsi.local
+		127.0.0.1  app.api-tsi.local
+		127.0.0.1  app.dicebear-tsi.local
+		```
 
 
 # Running the application
