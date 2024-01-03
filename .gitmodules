@@ -1,0 +1,9 @@
+[submodule "tsi-devops"]
+	path = tsi-devops
+	url = git@github.com:isaacwassouf/tsi-devops.git
+[submodule "tsi-api"]
+	path = tsi-api
+	url = git@github.com:isaacwassouf/tsi-api.git
+[submodule "tsi-pwa"]
+	path = tsi-pwa
+	url = git@github.com:isaacwassouf/tsi-pwa.git
