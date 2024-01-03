@@ -1,6 +1,6 @@
 # Typing Speed Improvement
 
-This is the final submission for the **Project Software Engineering** course.
+This is the final submission for the **Project: Software Engineering (DLMCSPSE01)** course.
 
 # Structure
 This project is structured with three repositories
