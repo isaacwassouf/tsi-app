@@ -65,3 +65,4 @@ In order to install the project successfully please follow the following steps.
 	```bash
 	make migrate
 	```
+- You can now access the application at [http://app.pwa-tsi.local](http://app.pwa-tsi.local)
